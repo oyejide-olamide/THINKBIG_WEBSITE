@@ -21,7 +21,7 @@ const AudienceSection = () => {
           mt-8 w-[75px]' src="/Think_big/Line 3.png" alt="" />
           </div>
 
-          <div className="grid md:grid-cols-2 lg:mt-20 gap-8 items-center">
+          <div className=" body grid md:grid-cols-2 lg:mt-20 gap-8 items-center">
              <div>
               <h3 className={`text-2xl font-bold mb-4 ${isDark ? 'text-white' : 'text-black'}`}>
                 The Next Generation of Leaders

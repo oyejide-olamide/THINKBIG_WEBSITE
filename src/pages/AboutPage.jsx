@@ -6,7 +6,7 @@ const AboutPage = () => {
     `url('/Think_big/background.png') `, backgroundSize: 'cover', opacity: 60}}>
 
 
-     <section className="py-24 sm:py-16 md:py-20 lg:py-24">
+     <section className="py-20 sm:py-16 md:py-20 lg:py-24">
   <div className="container mx-auto px-4 sm:px-6 lg:px-8">
     <div className="relative">
       {/* Decorative background element (optional) */}
