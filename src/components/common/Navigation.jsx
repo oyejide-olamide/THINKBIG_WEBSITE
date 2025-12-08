@@ -16,7 +16,8 @@ const Navigation = () => {
     { name: 'Sectors', path: '/sectors' },
     { name: 'Target Audience', path: '/audience' },
     { name: 'Speakers', path: '/speakers' },
-    { name: "FAQ's", path: '/faq' }
+    { name: "FAQ's", path: '/faq' },
+
   ];
 
   const isActiveLink = (path) => {
@@ -64,9 +65,10 @@ const Navigation = () => {
           <button className="hidden md:block bg-yellow-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-500 transition-colors">
             Apply Now →
           </button>
-          <button className="hidden md:block border-2 border-white text-white px-4 py-2 rounded-full font-semibold hover:bg-white hover:text-black transition-colors text-sm">
+            
+          <Link to="/partner" className="hidden md:block border-2 border-white text-white px-4 py-2 rounded-full font-semibold hover:bg-white hover:text-black transition-colors text-sm">
             Partner With Us →
-          </button>
+          </Link>
           
           {/* Mobile Menu Button */}
           <button 
@@ -96,12 +98,15 @@ const Navigation = () => {
             </Link>
           ))}
           <div className="px-6 py-3 space-y-2">
-            <button className="w-full bg-yellow-400 text-black px-6 py-2 rounded-full font-semibold">
+            <button className="w-full bg-yellow-400 text-black mb-4 px-6 py-2 rounded-full font-semibold">
               Apply Now →
             </button>
-            <button className="w-full border-2 border-white text-white px-6 py-2 rounded-full font-semibold">
+
+           
+            <Link to="/partner" className="w-full border-2 border-white text-white px-6 py-2  rounded-full font-semibold">
               Partner With Us →
-            </button>
+            </Link>
+           
           </div>
         </div>
       )}
