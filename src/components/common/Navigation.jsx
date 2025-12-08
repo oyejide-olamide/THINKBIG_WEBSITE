@@ -65,10 +65,10 @@ const Navigation = () => {
           <button className="hidden md:block bg-yellow-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-500 transition-colors">
             Apply Now →
           </button>
-            
-          <Link to="/partner" className="hidden md:block border-2 border-white text-white px-4 py-2 rounded-full font-semibold hover:bg-white hover:text-black transition-colors text-sm">
+
+          <button className="hidden md:block border-2 border-white text-white px-4 py-2 rounded-full font-semibold hover:bg-white hover:text-black transition-colors text-sm">
             Partner With Us →
-          </Link>
+          </button>
           
           {/* Mobile Menu Button */}
           <button 
@@ -103,9 +103,9 @@ const Navigation = () => {
             </button>
 
            
-            <Link to="/partner" className="w-full border-2 border-white text-white px-6 py-2  rounded-full font-semibold">
+            <button className="w-full border-2 border-white text-white px-6 py-2  rounded-full font-semibold">
               Partner With Us →
-            </Link>
+            </button>
            
           </div>
         </div>

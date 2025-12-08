@@ -7,7 +7,7 @@ import SectorsPage from './SectorsPage';
 import AudiencePage from './AudiencePage';
 import SpeakersPage from './SpeakersPage';
 import FAQPage from './FAQPage';
-import Footer from '../components/common/Footer';
+
 
 const HomePage = () => {
   return (
@@ -21,7 +21,7 @@ const HomePage = () => {
       <AudiencePage />
       <SpeakersPage />
       <FAQPage />
-      <Footer/>
+     
     </div>
     </>
   );

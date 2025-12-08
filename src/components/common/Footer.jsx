@@ -10,11 +10,12 @@ const Footer = () => {
     <footer className={`body ${isDark ? 'bg-gray-900' : 'bg-gray-900'} text-white`}>
       <div>
         {/* Join Movement Section */}
+        
         <div
           className="relative text-center p-8 md:p-20 h-auto md:h-[400px] bg-cover bg-center"
           style={{ backgroundImage: `url('/Think_big/handme.png')` }}
         >
-          {/* dark overlay for readability */}
+         
           <div className="absolute inset-0 bg-black/50 md:bg-black/40" />
 
           <div className="relative z-10 max-w-3xl mx-auto">
@@ -24,6 +25,7 @@ const Footer = () => {
             <p className="text-sm md:text-base mx-4 md:mx-0 mb-6 text-justify">
               Be part of the national revolution that’s shaping Nigeria’s next generation of innovators, leaders, and changemakers. We invite visionary individuals, organizations, and brands to partner with THINK-BIG NAIJA 2025 — a movement built on integrity, purpose, and impact.
             </p>
+
             <button className="bg-yellow-400 text-black px-6 py-2 md:px-8 md:py-3 rounded-full font-semibold hover:bg-yellow-500 transition-colors shadow-lg">
               Partner With Us →
             </button>

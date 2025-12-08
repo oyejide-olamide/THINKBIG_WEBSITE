@@ -29,7 +29,6 @@ const App = () => {
               <Route path="/audience" element={<AudiencePage />} />
               <Route path="/speakers" element={<SpeakersPage />} />
               <Route path="/faq" element={<FAQPage />} />
-              <Route path='/partner' element={<Footer/>}/>
             </Routes>
           </main>
           <Footer />
